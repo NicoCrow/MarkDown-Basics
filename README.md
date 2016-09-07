@@ -1,6 +1,8 @@
 # MarkDown Basics #
 <!-- --------------- -->
 
+*  [Headers, Paragraphs, Blockquotes](#headers-paragraphs-blockquotes)
+
 ## Headers, Paragraphs, Blockquotes ##
 <!-- ---------------------------------- -->
 
