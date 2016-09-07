@@ -2,6 +2,11 @@
 <!-- --------------- -->
 
 *  [Headers, Paragraphs, Blockquotes](#headers-paragraphs-blockquotes)
+*  [Phrase Emphasis](#phrase-emphasis)
+*  [Lists](#lists)
+*  [Links](#links)
+*  [Images](#images)
+*  [Code](#code)
 
 ## Headers, Paragraphs, Blockquotes ##
 <!-- ---------------------------------- -->
