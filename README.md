@@ -1,7 +1,8 @@
 # MarkDown Basics
----------------
+<!-- --------------- -->
 
-### HEADERS, PARAGRAPHS, BLOCKQUOTES
+## Headers, Paragraphs, Blockquotes
+----------------------------------
 
 Markdown offers two styles of __`headers`__: *`Setext`* and *`atx`*.
 
@@ -31,7 +32,10 @@ __`Blockquotes`__ are indicated using email-style '`>`' angle brackets.
     >
     > ## This is an H2 in a blockquote
 
-### PHRASE EMPHASIS
+
+## Phrase Emphasis
+----------------------------------
+
 
 Markdown uses `asterisks (*)` and `underscores (_)` to indicate spans of emphasis.
 
@@ -45,7 +49,9 @@ __`bold`__
     Use two asterisks for **strong emphasis**.
     Or, if you prefer, __use two underscores instead__.
 
-### LISTS
+## Lists
+----------------------------------
+
 
 __`Unordered`__ (bulleted) lists use asterisks, pluses, and hyphens (`*`, `+`, and `-`) as list markers. These three markers are interchangable; this:
 
@@ -68,9 +74,7 @@ __`Ordered`__ (numbered) lists use regular numbers, followed by periods, as list
     2.  Green
     3.  Blue
 
-If you put `blank lines between items`, you'll get `<p>` tags for the
-list item text. You can create `multi-paragraph list items` by indenting
-the paragraphs by 4 spaces or 1 tab:
+If you put _blank lines between items_, you'll get `<p>` tags for the list item text. You can create __multi-paragraph list items__ by indenting the paragraphs by 4 spaces or 1 tab:
 
     *   A list item.
 
@@ -78,6 +82,41 @@ the paragraphs by 4 spaces or 1 tab:
 
     *   Another item in the list.
 
+## Links
+----------------------------------
+
+Markdown supports two styles for creating links: *inline* and *reference*. With both styles, you use square brackets to delimit the text you want to turn into a link.
+
+__Inline-style links__ use parentheses immediately after the link text.
+For example:
+
+    This is an [example link](http://example.com/).
+
+Optionally, you may include a _**title**_ attribute in the parentheses:
+
+    This is an [example link](http://example.com/ "With a Title").
+
+__Reference-style links__ allow you to refer to your links by names, which you define elsewhere in your document:
+
+    I get 10 times more traffic from [Google][1] than from
+    [Yahoo][2] or [MSN][3].
+
+    [1]: http://google.com/        "Google"
+    [2]: http://search.yahoo.com/  "Yahoo Search"
+    [3]: http://search.msn.com/    "MSN Search"
+
+The _title_ attribute is optional. Link names may contain letters, numbers and spaces, but are *not* case sensitive:
+
+    I start my morning with a cup of coffee and
+    [The New York Times][NY Times].
+
+    [ny times]: http://www.nytimes.com/
 
 
-http://daringfireball.net/projects/markdown/
+
+
+
+
+
+
+Source from [here](http://daringfireball.net/projects/markdown/).
