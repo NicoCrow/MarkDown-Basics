@@ -3,7 +3,7 @@
 
 ### HEADERS, PARAGRAPHS, BLOCKQUOTES
 
-Markdown offers two styles of `headers`: *`Setext`* and *`atx`*.
+Markdown offers two styles of __`headers`__: *`Setext`* and *`atx`*.
 
 `Setext-style` headers for `<h1>` and `<h2>` are created by "underlining" with equal signs (`=`) and hyphens (`-`), respectively.
 
@@ -19,11 +19,11 @@ To create an `atx-style` header, you put 1-6 hash marks (`#`) at the beginning o
     ...
     ###### Sixth header
 
-`<p></p>` A `paragraph` is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
+`<p></p>` A __`paragraph`__ is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
     The quick brown fox jumped over the lazy dog's back.
 
-`Blockquotes` are indicated using email-style '`>`' angle brackets.
+__`Blockquotes`__ are indicated using email-style '`>`' angle brackets.
 
     > This is a blockquote.
     >
@@ -35,19 +35,19 @@ To create an `atx-style` header, you put 1-6 hash marks (`#`) at the beginning o
 
 Markdown uses `asterisks (*)` and `underscores (_)` to indicate spans of emphasis.
 
-`italic`
+__`italic`__
 
     Some of these words *are emphasized*.
     Some of these words _are emphasized also_.
 
-`bold`
+__`bold`__
 
     Use two asterisks for **strong emphasis**.
     Or, if you prefer, __use two underscores instead__.
 
 ### LISTS
 
-`Unordered (bulleted)` lists use asterisks, pluses, and hyphens (`*`, `+`, and `-`) as list markers. These three markers are interchangable; this:
+__`Unordered`__ (bulleted) lists use asterisks, pluses, and hyphens (`*`, `+`, and `-`) as list markers. These three markers are interchangable; this:
 
     *   Candy.
     *   Gum.
@@ -62,7 +62,7 @@ and this:
     -   Candy.
     -   Gum.
 
-`Ordered (numbered)` lists use regular numbers, followed by periods, as list markers:
+__`Ordered`__ (numbered) lists use regular numbers, followed by periods, as list markers:
 
     1.  Red
     2.  Green
