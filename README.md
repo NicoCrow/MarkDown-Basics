@@ -16,9 +16,9 @@ Markdown offers two styles of __headers__: *`Setext`* and *`atx`*.
 
 To create an `atx-style` header, you put 1-6 hash marks (`#`) at the beginning of the line -- the number of hashes equals the resulting HTML header level.
 
-    ### Third header
+    ### Third header ###
     ...
-    ###### Sixth header
+    ###### Sixth header ######
 
 `<p></p>` A __paragraph__ is simply one or more consecutive lines of text, separated by one or more blank lines. (A blank line is any line that looks like a blank line — a line containing nothing but spaces or tabs is considered blank.) Normal paragraphs should not be indented with spaces or tabs.
 
@@ -131,6 +131,22 @@ Reference-style:
 <!-- ---------------------------------- -->
 
 
+In a regular paragraph, you can create code span by wrapping text in backtick quotes. Any ampersands (`&`) and angle brackets (`<` or `>`) will automatically be translated into HTML entities. This makes it easy to use Markdown to write about HTML example code:
+
+    I strongly recommend against using any `<blink>` tags.
+
+    I wish SmartyPants used named entities like `&mdash;`
+    instead of decimal-encoded entites like `&#8212;`.
+
+To specify an entire block of pre-formatted code, indent every line of the block by 4 spaces or 1 tab. Just like with code spans, `&`, `<`, and `>` characters will be escaped automatically.
 
 
-Source from [here](http://daringfireball.net/projects/markdown/).
+    If you want your page to validate under XHTML 1.0 Strict,
+    you've got to put paragraph tags in your blockquotes:
+
+        <blockquote>
+            <p>For example.</p>
+        </blockquote>
+
+
+Source: [daringfireball.net](http://daringfireball.net/projects/markdown/).
